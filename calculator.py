@@ -110,6 +110,7 @@ class InfixCalculator(Calculator):
         Pops last two elements, A, B in operands and last element in operator X
         Appends to operands B X A.
         """
+        print(self.operands)
         l_operand, sl_operand = self.operands[-1], self.operands[-2]
         l_operator = self.operators[-1]
 
@@ -125,5 +126,5 @@ class InfixCalculator(Calculator):
 
 if __name__=='__main__':
     prefixCalc = InfixCalculator()
-    res = prefixCalc.evaluate('( ( ( 1 + 1 ) / 10 ) - ( 1 * 2 ) )')
+    res = prefixCalc.evaluate('( ( ( 4 - 2 ) * 4 ) + 3 )')
     print(res)
