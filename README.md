@@ -20,3 +20,6 @@ Infix Examples:
 Prefix Examples:
 - `http://localhost:5000/calculator/prefix/- _ 10 + 1 1 * 1 2`
 - `http://localhost:5000/calculator/prefix/+ * 1 2 3`
+
+
+Calculator functions can also be run stand-alone and are found in `calculator.py`
