@@ -13,10 +13,10 @@ Python Version: Python 3.6.9
 NOTE: cannot use division sign `/` in url to query calculator so use _ instead for division as in examples below. 
 
 ## How to query calculator
-- Infix Examples:
-`http://localhost:5000/calculator/infix/( 1 + ( 2 * 3 ) )`
-`http://localhost:5000/calculator/infix/( ( ( 4 _ 2 ) * 4 ) + 3 )`
+Infix Examples:
+- `http://localhost:5000/calculator/infix/( 1 + ( 2 * 3 ) )`
+- `http://localhost:5000/calculator/infix/( ( ( 4 _ 2 ) * 4 ) + 3 )`
 
-- Prefix Examples:
-`http://localhost:5000/calculator/prefix/- _ 10 + 1 1 * 1 2`
-`http://localhost:5000/calculator/prefix/+ * 1 2 3`
+Prefix Examples:
+- `http://localhost:5000/calculator/prefix/- _ 10 + 1 1 * 1 2`
+- `http://localhost:5000/calculator/prefix/+ * 1 2 3`
