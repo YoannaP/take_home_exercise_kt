@@ -1,7 +1,5 @@
 # Prefix & Infix Calculator
 
-Take Home Challenge for Machine Learning Engineer Position.
-
 ## How start up calculator
 Python Version: Python 3.6.9
 - `git clone https://github.com/YoannaP/take_home_exercise_kt.git`
